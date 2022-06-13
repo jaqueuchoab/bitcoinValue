@@ -1,0 +1,135 @@
+@media (min-width: 768px) {
+  section.valueofBuy,
+  footer {
+    padding: 30px 30px;
+  }
+
+  section.aboutBitcoin {
+    padding: 30px 60px;
+  }
+
+  footer header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 3rem;
+    height: 100%;
+  }
+
+  h1.headerTitle {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 56px;
+  }
+
+  h4.litleTitle {
+    width: fit-content;
+    margin-top: -20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  h2#valueBuy,
+  #valueSymbol {
+    font-weight: 700;
+    font-size: 70px;
+  }
+
+  h3#valueSymbol {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  div#valores {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+  }
+
+  p#inform {
+    font-weight: 500;
+    font-size: 10pt;
+  }
+
+  .confiraAbaixo{
+    font-size: 10pt;
+    animation: confiraAbaixo 3s infinite alternate;
+  }
+
+  img#imgHeader {
+    width: 100px;
+  }
+
+  section.containerResult {
+    height: 75vh;
+  }
+
+  .noDisplayDesk {
+    display: none;
+  }
+
+  article.questionsInformations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    font-size: 13pt;
+  }
+
+  h2.titleQuestions {
+    font-size: 20pt;
+    padding: 0.5rem;
+  }
+
+  p.textQuestions {
+    width: 700px;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  img.carteiraBitcoin {
+    width: 210px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 1rem;
+    position: relative;
+  }
+
+  .footerInf {
+    padding: 0.5rem 0;
+  }
+
+  .titleInformFooter,
+  .linkContainer {
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  .linkContainer {
+    cursor: pointer;
+  }
+
+  div.linha-vertical {
+    height: 100%;
+    border-left: 2px solid;
+    border-color: #F7931B;
+    margin-right: 3rem;
+  }
+
+  #copyright {
+    font-size: 0.6rem;
+  }
+
+  @keyframes confiraAbaixo {
+    to{
+      transform: translateY(15px);
+    }
+  }
+}

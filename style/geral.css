@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*fonte padrão*/
+  font-family: 'Poppins', sans-serif;
+}
+
+body, main{
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #0B0600;
+}
+
+/*cores*/
+section.valueofBuy, footer{
+  background-color: #0B0600;
+}
+
+section.aboutBitcoin{
+  background-color: white;
+}
+
+h1.headerTitle, h2#valueBuy, h2.titleQuestions, a{
+  color: #F7931B;
+}
+
+h4.litleTitle, h3#valueSymbol, p.titleInformFooter, p#inform, span{
+  color: white;
+}
+
+/*alinhamento*/
+header#head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a#headTitle{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+h4.litleTitle{
+  position: relative;
+  margin-top: -10px;
+}
+
+section.containerResult, div#valuesResult{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span.spanRodapeHead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.aboutBitcoin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img.imgCenter{
+  margin: 0 auto;
+  padding: 1.6rem 0;
+}
+
+div#spanInform{
+  width: 100%;
+  position: relative;
+  margin: -12px;
+}

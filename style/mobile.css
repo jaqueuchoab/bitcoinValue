@@ -1,0 +1,87 @@
+@media (max-width: 768px){
+  section.valueofBuy, section.aboutBitcoin, footer{
+    padding: 25px 30px;
+  }
+  h1.headerTitle{
+    font-weight: 700;
+    font-size: 36px;
+  }
+  h4.litleTitle{
+    font-weight: 700;
+    font-size: 10px;
+  }
+  h2#valueBuy{
+    font-weight: 700;
+    font-size: 40px;
+  }
+  p#inform{
+    font-weight: 500;
+    font-size: 10px;
+  }
+  p.saibaMais{
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 10px;
+    z-index: 5000;
+    animation: saibaMais 3s infinite alternate;
+  }
+
+  img#imgHeader{
+    width: 70px;
+  }
+
+  .noDisplayMobile{
+    display: none;
+  }
+
+  section.containerResult {
+    height: 75vh;
+  }
+
+  article.questionsInformations{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  h2.titleQuestions{
+    padding: 0.5rem;
+  }
+  
+  p.textQuestions{
+    text-align: start;
+    padding: 0.5rem;
+  }
+
+  img.carteiraBitcoin{
+    width: 210px;
+  }
+
+  footer{
+    padding-bottom: 1rem;
+  }
+
+  .footerInf{
+    padding: 0.5rem 0;
+  }
+
+  .titleInformFooter, .linkContainer{
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  .linkContainer{
+    cursor: pointer;
+  }
+
+  #copyright{
+    font-size: 0.6rem;
+  }
+
+  @keyframes saibaMais {
+    to{
+      transform: translateY(25px);
+    }
+  }
+}
